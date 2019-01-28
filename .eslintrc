@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard"
+  ],
+  "plugins": [
+    "babel"
+  ],
+  "env": {
+    "browser" : true
+  },
+  "globals": {
+    "__DEV__"               : false,
+    "__TEST__"              : false,
+    "__PROD__"              : false,
+    "__COVERAGE__"          : false,
+    "__DEFAULT_PROJECT__"   : false
+  },
+  "rules": {
+    "key-spacing"          : 0,
+    "max-len"              : [2, 120, 2],
+    "object-curly-spacing" : [2, "always"],
+    "no-var"               : 2,
+    "comma-dangle"         : [2, "always-multiline"]
+  }
+}
